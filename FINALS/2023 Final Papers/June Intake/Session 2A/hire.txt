@@ -1,0 +1,4 @@
+1	Malabe	Piliyandala	25
+2	Kollupitiya	Pandura	26
+3	Kaduwela	Kadawatha	11
+4	Dehiwala	Rajagiriya	10

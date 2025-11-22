@@ -1,0 +1,31 @@
+#include<stdio.h>
+int main() {
+	
+	int matrix[5][5];
+	
+	for(int i=0;i<5;i++){
+		for(int j=0;j<5;j++){
+			printf("Enter %d,%d: ",i+1,j+1);
+			scanf("%d", &matrix[i][j]);
+		}
+	}
+	
+	
+	for(int i=0;i<5;i++){
+		for(int j=0;j<5;j++){
+			printf("%d ",matrix[i][j]);
+		}
+		printf("\n");
+	}
+	//reversing without using another array
+	printf("\n\n");
+	for(int i=0;i<5;i++){
+		for(int j=4;j>=0;j--){
+			printf("%d ",matrix[i][j]);
+		}
+		printf("\n");
+	}
+	
+	//with using another array
+	return 0;
+}
