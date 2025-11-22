@@ -99,3 +99,6 @@ coverage/
 *.tar.bz2
 *.zip
 *.rar
+
+# Ignore PDF files
+*.pdf
